@@ -3,7 +3,7 @@
 	"description": "Cleans WME permalinks of layer information",
 	"manifest_version": 2,
 	"background":{"scripts":["plcleaner.js"]},
-   "version": "2017.11.14.01",
+   "version": "2017.11.14.1",
 	   "permissions": [
 	"webRequest",
 	"*://www.waze.com/editor*", 
