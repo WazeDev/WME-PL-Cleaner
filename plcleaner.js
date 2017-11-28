@@ -3,7 +3,7 @@ function listen(details)
 {
 	var replaceURL = details.url.replace(/&[^&]*Filter=[^&]*|&s=(\d+)/ig,'').replace('editor?','editor/?');
 	if(replaceURL.indexOf("&segments") > -1)
-		replaceURL = details.url.replace(/&zoom=(0|1)/, "&zoom=2");
+		replaceURL = replaceURL.replace(/&zoom=(0|1)/, "&zoom=2");
 	return {redirectUrl: replaceURL};
 }
 
